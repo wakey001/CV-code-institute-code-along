@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700!Exo:100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------Colors*/
+/*--------------------------------------------Colors*/
+
 .bg-color-name-title {
     background-color: #676767;
 }
 
-.bg-color-three-reasons{
+.bg-color-three-reasons {
     background-color: #fff;
 }
 
@@ -17,22 +18,27 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
-    background-color: #e67e22;   
+    background-color: #e67e22;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;   
+    background-color: #9b59b6;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;   
+    background-color: #3498db;
 }
 
 .ui-menu-color-download {
-    background-color: #525252;   
+    background-color: #525252;
 }
-/*-----------------------------Special paddings/margins/text */
+
+/* ----------------------------------------Special paddings/margins/text */
 
 h1,
 h2,
@@ -40,6 +46,7 @@ h3,
 h4 {
     margin: 0;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -54,13 +61,13 @@ h4 {
     display: inline-block;
 }
 
-.row-table{
+.row-table {
     display: table;
 }
 
-.section-column{
+.section-column {
     display: table-cell;
-    padding: 30px 30px;
+    padding: 0 30px 30px;
     float: none;
 }
 
@@ -71,7 +78,8 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
-/*-----------------------------Heading*/
+
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
@@ -80,16 +88,16 @@ header {
 .heading {
     margin-left: 50px;
 }
+
 .logo {
-    background: url("../images/rosie-jpg.jpg");
+    background: url("../images/rosie.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all.5s ease-in-out;
-    -moz-transition: all.5s ease-in-out;
-    -webkit-transition: all.5s ease-in-out;
-    
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .name {
@@ -101,13 +109,12 @@ header {
 }
 
 .title {
-    font-family:"Roboto", sans-serif ;
+    font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
-
 }
 
 .list-inline-item:not(:last-child) {
@@ -118,13 +125,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -158,16 +165,14 @@ header {
     letter-spacing: 2px;
 }
 
-/*-----------------------------Hover.css */
-
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
-
 }
 
-/*-----------------------------Footer*/
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -176,14 +181,14 @@ footer {
     margin: 0;
 }
 
-.cv-pdf {
+.cv-pdf i {
     font-size: 18px;
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35 ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
@@ -207,74 +212,76 @@ footer {
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35 ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-
 }
+
 .social-links li a i:hover {
-    background-color: #e84610;
+    background: #e84610;
 }
 
 #footer-details {
     padding: 20px;
 }
-/*-----------------------------Three reasons*/
+
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
-
 }
 
 .three-reasons-heading {
     margin-bottom: 15px;
 }
 
-/*----------------------------- Personal Info*/
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
 }
-personal-info-item .key,
-personal-info-item .value {
+
+.personal-info-item .key,
+.personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
 }
 
-personal-info-item .key p,
-personal-info-item .value p {
+.personal-info-item .key p,
+.personal-info-item .value p {
     margin: 0;
 }
 
-personal-info-item .key {
-    width:30%;
+.personal-info-item .key {
+    width: 30%;
     margin-right: 21px;
     padding-top: 2px;
     vertical-align: top;
 }
 
-personal-info-item .key p {
+.personal-info-item .key p {
     font-weight: 700;
 }
 
-personal-info-item .value {
+.personal-info-item .value {
     position: relative;
     width: 60%;
 }
-/*-----------------------------Skills*/
 
-.progress{
+/* ----------------------------------------Skills */
+
+.progress {
     position: relative;
-    height:25px;
+    height: 25px;
     margin-bottom: 4px;
 }
 
 .progress-type {
     position: absolute;
+    left: 0px;
     font-weight: 400;
-    left: 0;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
@@ -284,10 +291,10 @@ personal-info-item .value {
     margin: 40px 20px;
 }
 
-/*------------------------------Work History*/
+/* ----------------------------------------Work History */
 
 .history-heading {
-    color:#fafafa;
+    color: #fafafa;
     margin-bottom: 50px;
 }
 
@@ -310,23 +317,57 @@ personal-info-item .value {
     top: 3em;
     display: block;
     font-family: "Exo", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.8em;
     padding: 0;
     margin: 0;
 }
+
 .timeline-item:after {
     width: 12px;
     height: 12px;
     display: block;
-    position: absolute;
     top: 2.4em;
+    position: absolute;
     left: -6px;
     border-radius: 12px;
-    content: "";
+    content: '';
     background: #fafafa;
 }
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/* ----------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
